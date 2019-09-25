@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_edit"
+        android:icon="@drawable/edit"
+        android:title="@string/menu_edit" />
+    <item
+        android:id="@+id/action_preview"
+        android:icon="@drawable/preview"
+        android:title="@string/menu_preview" />
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/list"
+        android:title="@string/menu_list" />
+    <item
+        android:id="@+id/action_save"
+        android:icon="@drawable/save"
+        android:title="@string/menu_save" />
+</menu>

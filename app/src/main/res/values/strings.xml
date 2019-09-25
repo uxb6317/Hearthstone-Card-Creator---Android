@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_preview">Preview</string>
+    <string name="menu_list">Official Cards</string>
+    <string name="menu_save">Save</string>
+
+    <string-array name="class_dropdown">
+        <item>Class</item>
+        <item>Neutral</item>
+        <item>Warrior</item>
+        <item>Mage</item>
+        <item>Rogue</item>
+        <item>Warlock</item>
+        <item>Shaman</item>
+        <item>Paladin</item>
+        <item>Priest</item>
+        <item>Druid</item>
+        <item>Hunter</item>
+    </string-array>
+
+    <string-array name="existing_class_dropdown">
+        <item>Pick a class to see existing cards to that class.</item>
+        <item>Neutral</item>
+        <item>Warrior</item>
+        <item>Mage</item>
+        <item>Rogue</item>
+        <item>Warlock</item>
+        <item>Shaman</item>
+        <item>Paladin</item>
+        <item>Priest</item>
+        <item>Druid</item>
+        <item>Hunter</item>
+    </string-array>
+
+    <string-array name="type_dropdown">
+        <item>Type</item>
+        <item>Minion</item>
+        <item>Spell</item>
+        <item>Weapon</item>
+        <item>Hero</item>
+    </string-array>
+
+
+    <string-array name="rarity_dropdown">
+        <item>Rarity</item>
+        <item>Collectable</item>
+        <item>Common</item>
+        <item>Rare</item>
+        <item>Epic</item>
+        <item>Legendary</item>
+    </string-array>
+
+    <string-array name="race_dropdown">
+        <item>Race</item>
+        <item>Beast</item>
+        <item>Demon</item>
+        <item>Dragon</item>
+        <item>Mech</item>
+        <item>Murloc</item>
+        <item>Pirate</item>
+        <item>Totem</item>
+        <item>Elemental</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="emptyNumField">+</string>
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+    <string name="inputOk">OK</string>
+    <string name="inputCancel">Cancel</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spell_card_width">207dp</dimen>
+    <dimen name="spell_card_height">166dp</dimen>
+    <dimen name="spell_card_margin_bottom">168dp</dimen>
+    <dimen name="spell_card_margin_left">30dp</dimen>
+    <dimen name="spell_cost_margin_left">10dp</dimen>
+    <dimen name="spell_desc_margin_bottom">35dp</dimen>
+
+    <dimen name="minion_card_width">155dp</dimen>
+    <dimen name="minion_card_height">195dp</dimen>
+    <dimen name="minion_card_margin_bottom">165dp</dimen>
+    <dimen name="minion_card_margin_left">60dp</dimen>
+    <dimen name="minion_cost_margin_left">16dp</dimen>
+    <dimen name="minion_desc_margin_bottom">52dp</dimen>
+</resources>

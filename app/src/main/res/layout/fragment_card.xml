@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Card">
+
+    <!--SPELL IMAGE DIMENSIONS-->
+    <!--android:layout_width="207dp"-->
+    <!--android:layout_height="166dp"-->
+    <!--android:layout_marginBottom="168dp"-->
+    <!--android:layout_marginStart="30dp"-->
+    <!--app:riv_oval="false"-->
+
+    <!--MINION IMAGE DIMENSIONS-->
+    <!--android:layout_width="155dp"-->
+    <!--android:layout_height="195dp"-->
+    <!--android:layout_marginBottom="165dp"-->
+    <!--android:layout_marginStart="60dp"-->
+    <!--app:riv_oval="true"-->
+
+    <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cardImage"
+        android:layout_width="155dp"
+        android:layout_height="195dp"
+        android:layout_marginBottom="165dp"
+        android:layout_marginStart="60dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/cardTemplate"
+        app:layout_constraintStart_toStartOf="@+id/cardTemplate"
+        app:riv_oval="true" />
+
+    <ImageView
+        android:id="@+id/cardTemplate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/neutral_collectable_minion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551" />
+
+    <Button
+        android:id="@+id/manaCost"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="304dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/rounded"
+        android:fontFamily="@font/description"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cardTemplate"
+        app:layout_constraintStart_toStartOf="@+id/cardTemplate" />
+
+    <Button
+        android:id="@+id/attackValue"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="21dp"
+        android:background="@drawable/rounded"
+        android:fontFamily="@font/description"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/cardTemplate"
+        app:layout_constraintStart_toStartOf="@+id/cardTemplate" />
+
+    <Button
+        android:id="@+id/healthDurabilityValue"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginStart="213dp"
+        android:background="@drawable/rounded"
+        android:fontFamily="@font/description"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/cardTemplate"
+        app:layout_constraintStart_toStartOf="@+id/cardTemplate" />
+
+    <Button
+        android:id="@+id/name"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="160dp"
+        android:layout_marginStart="64dp"
+        android:background="@drawable/rounded"
+        android:fontFamily="@font/description"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cardTemplate"
+        app:layout_constraintStart_toStartOf="@+id/cardTemplate" />
+
+    <TextView
+        android:id="@+id/descriptionText"
+        android:layout_width="192dp"
+        android:layout_height="81dp"
+        android:layout_marginBottom="52dp"
+        android:layout_marginStart="42dp"
+        android:fontFamily="@font/description"
+        android:padding="5dp"
+        android:textColor="#333333"
+        android:textSize="13sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/cardTemplate"
+        app:layout_constraintStart_toStartOf="@+id/cardTemplate" />
+
+    <Button
+        android:id="@+id/description"
+        android:layout_width="192dp"
+        android:layout_height="81dp"
+        android:layout_marginBottom="52dp"
+        android:layout_marginStart="42dp"
+        android:background="@drawable/rounded"
+        android:fontFamily="@font/description"
+        android:textColor="@android:color/white"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cardTemplate"
+        app:layout_constraintStart_toStartOf="@+id/cardTemplate" />
+
+    <Button
+        android:id="@+id/uploadImage"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="236dp"
+        android:layout_marginStart="116dp"
+        android:background="@drawable/rounded"
+        android:fontFamily="@font/description"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/cardTemplate"
+        app:layout_constraintStart_toStartOf="@+id/cardTemplate" />
+
+    <Button
+        android:id="@+id/undo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_marginStart="40dp"
+        android:background="#e74c3c"
+        android:text="@string/undo"
+        android:textColor="@android:color/white"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/redo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="40dp"
+        android:background="#2ecc71"
+        android:text="@string/redo"
+        android:textColor="@android:color/white"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
